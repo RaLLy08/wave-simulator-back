@@ -1,27 +1,30 @@
 {
-  "name": "heroku-rising",
+  "name": "wave-simulator",
   "version": "1.0.0",
-  "description": "test be for heroku",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=production",
     "start": "nodemon ./build/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
-  "engines": {
-    "node": "12.x",
-    "npm": "6.x"
-  },
-  "author": "RaLLy08",
+  "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
-    "webpack": "4.41.2",
-    "webpack-cli": "3.3.10",
-    "express": "^4.15.2",
+    "@babel/cli": "7.7.7",
+    "@babel/core": "7.7.7",
+    "@babel/plugin-proposal-class-properties": "7.7.4",
+    "@babel/preset-env": "7.7.7",
     "babel-loader": "8.0.6",
-    "@babel/core": "7.7.4",
-    "@babel/preset-env": "7.7.4",
-    "@babel/plugin-proposal-class-properties": "7.7.4"
+    "chai": "4.2.0",
+    "express": "4.17.1",
+    "mocha": "6.2.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "3.3.10",
+    "ws": "7.2.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
