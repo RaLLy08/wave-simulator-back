@@ -1,0 +1,107 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  font-family: cursive;
+}
+.canvas-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.wave-set__button {
+  font-family: cursive;
+}
+.wave-stop__button {
+  background-color: red;
+  width: 80px;
+  height: 50px;
+  padding-right: 10px;
+  border-radius: 6px;
+  margin-top: 12px;
+}
+.wave-new-wave__button {
+  background-color: rgba(136, 138, 243, 0.993);
+  width: 80px;
+  height: 100%;
+  padding-right: 10px;
+  border-radius: 6px;
+  color: wheat;
+  font-family: cursive;
+}
+
+.wrapper__header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.header__wave-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.wrapper__amp-field {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 10px;
+  padding: 4px;
+}
+.wrapper__freq-field {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 10px;
+  padding: 4px;
+}
+.amp-field__readOnly {
+  width: 100px;
+  height: 20px;
+  border: black solid 1px;
+}
+.freq-field__readOnly {
+  width: 100px;
+  height: 20px;
+  border: black solid 1px;
+}
+.amp-field__label {
+  margin-right: 16px;
+  padding-top: 1px;
+}
+.freq-field__label {
+  margin-right: 16px;
+  padding-top: 1px;
+}
+.wave-num__label {
+  margin-right: 16px;
+  margin-top: 13px;
+}
+.wrapper__bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.bottom__fields {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.fields__amp-field {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 4px;
+}
+.fields__freq-field {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 4px;
+}
+.bottom__stop-wrapper {
+  display: flex;
+  justify-content: right;
+  margin-left: 14%;
+}
+
